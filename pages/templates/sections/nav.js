@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile } from "@fortawesome/free-regular-svg-icons";
 
+
+
 //import logo from "../../images/logo_transparent.png";
 
 const Nav = () => {

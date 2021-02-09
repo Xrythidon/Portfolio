@@ -56,6 +56,10 @@
   align-items: center;
 }
 
+.nav__medialink:nth-child(1){
+margin-left: 0px;
+}
+
 .nav__medialink:hover {
   color: $five;
 }
@@ -101,7 +105,7 @@
   color: black;
   min-height: 21px;
   padding-top: 5px;
-  padding-left: 30px;
+  padding-left: 15px;
   padding-bottom: 5px;
   display: block;
   background: linear-gradient($four, $five);
@@ -109,24 +113,58 @@
 }
 .about__container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
   background: $one;
   padding: 0 15px;
   background: rgba(12, 12, 12, 0.5);
 }
 
+
 .about__title {
   font-family: "Inconsolata";
   font-size: 6rem;
-  text-align: center;
   line-height: 0.8;
   display: flex;
   flex-direction: column;
   margin-right: 5px;
   margin-bottom: 15px;
   padding-left: 5px;
+  text-align: center;
+
+}
+
+.about__title2 {
+  font-size: 4rem;
+}
+
+.about__logoImage {
+  order: 1;
+  align-self: center;
+
+}
+
+.about__subtitleHeader {
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about__subtitle {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.about__subtitleContainer {
+  padding: 5px 5px;
+  order: 3;
+}
+
+
+.about__btn {
+
 }
 
 @media (min-width: 1200px) {
@@ -137,30 +175,20 @@
 
   .about__title {
     padding-left: 0px;
+    order: 2;
+    flex-grow: 1;
+    font-size: 12rem;
   }
-}
+  .about__title2 {
+    font-size: 8rem;
+  }
+  .about__subtitleHeader {
+    text-align: left;
+  }
 
-.about__subtitleHeader {
-  font-weight: 800;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.about__subtitle {
-  font-weight: 400;
-}
-
-.about__subtitleContainer {
-  padding: 5px 5px;
-}
-
-.about__title2 {
-  font-size: 4rem;
-}
-
-.about__btn {
-  background-color: red;
+  .about__subtitle {
+    text-align: left;
+  }
 }
 
 

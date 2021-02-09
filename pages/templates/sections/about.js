@@ -1,4 +1,5 @@
 import homeStyles from "../../../styles/Home.module.scss";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -9,6 +10,17 @@ const About = () => {
           <h1 className={homeStyles.about__title}>
             Alex <span className={homeStyles.about__title2}>Danisz</span>
           </h1>
+
+          <img
+            src="/static/images/logo.png"
+            width={264}
+            height={270}
+            layout="Fixed"
+            quality={100}
+            alt="Cute cat logo"
+            priority
+            className={homeStyles.about__logoImage}
+          />
           <div className={homeStyles.about__subtitleContainer}>
             <h3 className={homeStyles.about__subtitleHeader}>
               Toronto, On. | Web Developer{" "}

@@ -8,7 +8,7 @@ const index = () => {
     <>
     <Nav/>
    <About/>
-   <Projects/>
+
    
     </>
   );
