@@ -1,19 +1,43 @@
 @import "./variables";
 
+//Container
+
+.container {
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
 // Nav
 .nav {
   width: 100%;
   height: 50px;
-  background-color: $orange;
+  background-color: $one;
   //font-family: "Open Sans", sans-serif;
   font-family: "Inconsolata", monospace;
   font-size: 16px;
   font-weight: 500;
-  color: $dark-blue;
+  color: $four;
+}
+.nav__right {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+  .nav__right {
+    width: 80%;
+  }
 }
 
 .nav__medialinks {
@@ -24,32 +48,43 @@
 }
 
 .nav__medialink {
-  margin: 5px 15px;
+  margin: 5px 0px;
+  margin-left: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
+.nav__medialink:hover {
+  color: $five;
+}
+
 .nav__mediatext {
   display: none;
 }
 
-.nav__logo {
+.nav__items {
   list-style: none;
+  display: flex;
+  margin-left: 0px;
+}
+
+.nav__item {
+  margin-right: 15px;
 }
 
 .nav__img {
-width: 100%;
-max-width: 200px;
-height: auto;
-display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .nav__mediatext {
     margin-left: 5px;
-    display: inline;
+    display: none;
   }
 }
 
@@ -64,28 +99,69 @@ display: block;
 
 .about__bar {
   color: black;
- min-height: 21px;
- padding-top: 5px;
- padding-left: 30px;
- padding-bottom: 5px;
- display: block;
- background: linear-gradient($four,$five);
- border-radius: 4px 4px 0 0;
+  min-height: 21px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  display: block;
+  background: linear-gradient($four, $five);
+  border-radius: 4px 4px 0 0;
 }
 .about__container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   background: $one;
-
-  background: rgba(12,12,12,0.5);
+  padding: 0 15px;
+  background: rgba(12, 12, 12, 0.5);
 }
 
 .about__title {
-  font-family: "Roboto Mono";
+  font-family: "Inconsolata";
   font-size: 6rem;
+  text-align: center;
+  line-height: 0.8;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+@media (min-width: 1200px) {
+  .about__container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about__title {
+    padding-left: 0px;
+  }
+}
+
+.about__subtitleHeader {
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.about__subtitle {
+  font-weight: 400;
+}
+
+.about__subtitleContainer {
+  padding: 5px 5px;
+}
+
+.about__title2 {
+  font-size: 4rem;
 }
 
 .about__btn {
   background-color: red;
 }
+
+
+// Projects

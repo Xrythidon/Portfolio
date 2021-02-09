@@ -1,26 +1,20 @@
 import homeStyles from "../../styles/Home.module.scss";
-import Nav from "./nav";
+import Nav from "./sections/nav";
+import About from "./sections/about";
+import Projects from "./sections/projects";
 
 const index = () => {
   return (
-    <div>
-      <Nav />
-      <div className={homeStyles.about}>
-        <div className={homeStyles.about__bar}>About</div>
-        <div className={homeStyles.about__container}>
-          <h1 className={homeStyles.about__title}>Alex Danisz</h1>
-          <p className={homeStyles.about__subtitle}>
-            I'm Alex, a web developer with brilliant projects
-          </p>
-       
-        </div>
-      </div>
-    </div>
+    <>
+    <Nav/>
+   <About/>
+   <Projects/>
+   
+    </>
   );
 };
 
 export default index;
-
 
 /* 
 
