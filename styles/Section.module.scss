@@ -1,0 +1,50 @@
+@import "./variables";
+
+//--->Section<---
+.section {
+    margin-top: 40px;
+    font-family: "Inconsolata", monospace;
+    color: $five;
+    font-weight: 700;
+  }
+  
+  .section__bar {
+    color: black;
+    min-height: 21px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    display: block;
+    background: linear-gradient($four, $five);
+    border-radius: 4px 4px 0 0;
+  }
+
+  .section__container {
+    background: rgba(12, 12, 12, 0.5);
+  }
+
+
+  //Container
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 900px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 70%;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .container {
+      max-width: 60%;
+    }
+  }

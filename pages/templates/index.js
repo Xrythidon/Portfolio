@@ -1,13 +1,16 @@
 import homeStyles from "../../styles/Home.module.scss";
-import Nav from "./sections/nav";
-import About from "./sections/about";
-import Projects from "./sections/projects";
+import Nav from "./pageParts/nav";
+import About from "./pageParts/about";
+import Projects from "./pageParts/projects";
 
 const index = () => {
   return (
     <>
     <Nav/>
    <About/>
+   <Projects/>
+   <About/>
+
 
    
     </>

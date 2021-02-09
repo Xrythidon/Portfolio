@@ -1,18 +1,5 @@
 @import "./variables";
 
-//Container
-
-.container {
-  max-width: 100%;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-}
-
 // Nav
 .nav {
   width: 100%;
@@ -34,9 +21,21 @@
   justify-content: space-between;
 }
 
+@media (min-width: 900x) {
+  .nav__right {
+    max-width: 80%;
+  }
+}
+
 @media (min-width: 1200px) {
   .nav__right {
-    width: 80%;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .nav__right {
+    max-width: 60%;
   }
 }
 
@@ -56,8 +55,8 @@
   align-items: center;
 }
 
-.nav__medialink:nth-child(1){
-margin-left: 0px;
+.nav__medialink:nth-child(1) {
+  margin-left: 0px;
 }
 
 .nav__medialink:hover {
@@ -94,33 +93,13 @@ margin-left: 0px;
 
 // About
 
-.about {
-  margin-top: 20px;
-  font-family: "Inconsolata", monospace;
-  color: $five;
-  font-weight: 700;
-}
-
-.about__bar {
-  color: black;
-  min-height: 21px;
-  padding-top: 5px;
-  padding-left: 15px;
-  padding-bottom: 5px;
-  display: block;
-  background: linear-gradient($four, $five);
-  border-radius: 4px 4px 0 0;
-}
 .about__container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  background: $one;
   padding: 0 15px;
-  background: rgba(12, 12, 12, 0.5);
 }
-
 
 .about__title {
   font-family: "Inconsolata";
@@ -130,9 +109,9 @@ margin-left: 0px;
   flex-direction: column;
   margin-right: 5px;
   margin-bottom: 15px;
+  margin-top: 15px;
   padding-left: 5px;
   text-align: center;
-
 }
 
 .about__title2 {
@@ -142,7 +121,6 @@ margin-left: 0px;
 .about__logoImage {
   order: 1;
   align-self: center;
-
 }
 
 .about__subtitleHeader {
@@ -162,9 +140,7 @@ margin-left: 0px;
   order: 3;
 }
 
-
 .about__btn {
-
 }
 
 @media (min-width: 1200px) {
@@ -172,7 +148,6 @@ margin-left: 0px;
     flex-direction: row;
     align-items: flex-start;
   }
-
   .about__title {
     padding-left: 0px;
     order: 2;
@@ -191,5 +166,37 @@ margin-left: 0px;
   }
 }
 
-
 // Projects
+
+.project__container {
+  margin-bottom: 20px;
+  transition: all 400ms;
+  transition-timing-function: linear;
+}
+
+.project__logoBox {
+  width: 60%;
+  height: 500px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project__container:hover {
+  filter: drop-shadow(0 0 1.75rem rgba($five, 0.45));
+
+}
+
+.project__logo {
+ max-width: 100%;
+ width: 350px;
+ height: auto;
+}
+
+.project_descBox {
+  width: 40%;
+  
+}
+
