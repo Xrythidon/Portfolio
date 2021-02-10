@@ -42,6 +42,17 @@ body {
 
 .btn--large {
   padding: 8px 80px;
+  max-width: 40%;
+  flex-grow: 1;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--icon {
+  margin-right: 5px;
 }
 
 a {
