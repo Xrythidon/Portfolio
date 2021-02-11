@@ -2,6 +2,7 @@ import homeStyles from "../../styles/Home.module.scss";
 import Nav from "./pageParts/nav";
 import About from "./pageParts/about";
 import Projects from "./pageParts/projects";
+import Footer from "./pageParts/footer";
 
 const index = () => {
   return (
@@ -9,6 +10,7 @@ const index = () => {
     <Nav/>
    <About/>
    <Projects/>
+   <Footer/>
 
 
    

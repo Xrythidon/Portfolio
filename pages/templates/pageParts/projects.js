@@ -1,9 +1,4 @@
-import homeStyles from "../../../styles/Home.module.scss";
 import Section from "../components/section";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye, faFileCode } from "@fortawesome/free-regular-svg-icons";
-
 import Project from "../components/project/project";
 
 const Projects = () => {
@@ -12,12 +7,16 @@ const Projects = () => {
       <Project
         logoSrc="./static/images/nasalogo.png"
         title="Picture a Day"
+        demoUrl="https://pictureaday.netlify.app/"
+        codeUrl="https://github.com/Xrythidon/nasa-potd"
         tags={[
           "HTML & CSS",
           "JavaScript",
           "SASS",
           "React",
+          "React-Router",
           "Responsive",
+          "Mobile-First",
           "NASA API",
         ]}
         summary={`For this project I worked with things like Authentication with OAuth2, PayPal API, Database Design, UI & UX, and I used Vue and Vuex to make the project a Single Page Application.
@@ -35,8 +34,9 @@ const Projects = () => {
           "JavaScript",
           "SASS",
           "React",
+          "Mobile-First",
           "Responsive",
-          "NASA API",
+          "PoE API",
         ]}
         summary={`For this project I worked with things like Authentication with OAuth2, PayPal API, Database Design, UI & UX, and I used Vue and Vuex to make the project a Single Page Application.
 
@@ -51,8 +51,10 @@ const Projects = () => {
           "JavaScript",
           "SASS",
           "React",
+          "Next.js",
+          "Static Generated",
           "Responsive",
-          "NASA API",
+          "Mobile-First",
         ]}
         summary={`For this project I worked with things like Authentication with OAuth2, PayPal API, Database Design, UI & UX, and I used Vue and Vuex to make the project a Single Page Application.
 
