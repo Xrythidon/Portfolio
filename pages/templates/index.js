@@ -3,7 +3,6 @@ import Nav from "./pageParts/nav";
 import About from "./pageParts/about";
 import Projects from "./pageParts/projects";
 import Footer from "./pageParts/footer";
-import Skills from "./pageParts/skills";
 
 const index = () => {
   return (
