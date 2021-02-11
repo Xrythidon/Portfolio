@@ -1,4 +1,4 @@
-import homeStyles from "../../../styles/Home.module.scss";
+import homeStyles from "../styles/Home.module.scss";
 
 import Section from "../components/section";
 

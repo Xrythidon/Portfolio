@@ -1,7 +1,7 @@
 import React from "react";
 import 'animate.css';
 
-import sectionStyles from "../../../styles/Section.module.scss";
+import sectionStyles from "../styles/Section.module.scss";
 
 
 const Section = ({ children,title }) => {

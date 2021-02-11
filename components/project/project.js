@@ -1,4 +1,4 @@
-import homeStyles from "../../../../styles/Home.module.scss";
+import homeStyles from "../../styles/Home.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faFileCode } from "@fortawesome/free-regular-svg-icons";
