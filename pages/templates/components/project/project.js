@@ -3,7 +3,7 @@ import homeStyles from "../../../../styles/Home.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faFileCode } from "@fortawesome/free-regular-svg-icons";
 
-const Project = ({ logoSrc, title, tags, summary, demoUrl, codeUrl }) => {
+const Project = ({ logoSrc,  logoWidth, logoHeight, alt, title, tags, summary, demoUrl, codeUrl, }) => {
   return (
     <div className={homeStyles.project__container}>
       <div className={homeStyles.project__logoBox}>
@@ -12,6 +12,9 @@ const Project = ({ logoSrc, title, tags, summary, demoUrl, codeUrl }) => {
           layout="fixed"
           alt="Project Image"
           className={homeStyles.project__logo}
+          width={logoWidth}
+          height={logoHeight}
+          alt={alt}
         />
       </div>
       <div className={homeStyles.project__descBox}>

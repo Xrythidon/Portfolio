@@ -6,9 +6,12 @@ const Projects = () => {
     <Section title="Projects">
       <Project
         logoSrc="./static/images/nasalogo.png"
+        logoWidth="350"
+        logoHeight="262.5"
         title="Picture a Day"
         demoUrl="https://pictureaday.netlify.app/"
         codeUrl="https://github.com/Xrythidon/nasa-potd"
+        alt="Nasa Picture a Day Logo"
         tags={[
           "HTML & CSS",
           "JavaScript",
@@ -19,13 +22,23 @@ const Projects = () => {
           "Mobile-First",
           "NASA API",
         ]}
-        summary={`For this project I worked with things like Authentication with OAuth2, PayPal API, Database Design, UI & UX, and I used Vue and Vuex to make the project a Single Page Application.
-
-  Victor from Adventure Cord approached me to develop a website for his Discord bot where users can log in with their Discord accounts and view their profile stats, view other users's stats, read news and updates for the bot directly from the team and purchase products to use within the bot. Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.`}
+        summary={`An app that uses NASA APOD API to show interesting astronomical pictures with a description to understand more about space.
+        
+        The app features:
+        •	Newly generated picture daily
+        •	Allow users to save pictures locally
+        •	Share links
+        •	See astronomical pictures dated back until 1995
+        
+        The motivation behind this project was for a technical interview, however I fell in love with the idea of making a beautiful space gallery website. 
+        `}
       />
 
       <Project
         logoSrc="./static/images/poetradelogo.png"
+        logoWidth="350"
+        logoHeight="262.5"
+        alt="Path of Exile Trade Logo"
         title="PoE Trade"
         demoUrl="https://poe-trade.netlify.app/"
         codeUrl="https://github.com/Xrythidon/poe-trade"
@@ -38,13 +51,27 @@ const Projects = () => {
           "Responsive",
           "PoE API",
         ]}
-        summary={`For this project I worked with things like Authentication with OAuth2, PayPal API, Database Design, UI & UX, and I used Vue and Vuex to make the project a Single Page Application.
-
-      Victor from Adventure Cord approached me to develop a website for his Discord bot where users can log in with their Discord accounts and view their profile stats, view other users's stats, read news and updates for the bot directly from the team and purchase products to use within the bot. Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.`}
+        summary={`PoE Trade is an app that enables players to trade between each other using PathofExile’s Trade API, and using a local API to cache all in-game items.
+        
+        How to use: Search up an item in the search bar i.e. “Headhunter”, and a list of the available items will be displayed. Click the whisper button to automatically add the player’s name to the clipboard and you are ready to message them in game.
+        
+        The app features:
+        •	Autocomplete categorized search suggestions, which can be used with arrow keys
+        •	Displays items with all notable data (affixes, ilvl, price, etc)
+        •	Links/Socket connections
+        •	Shows all items
+        •	Clipboard message
+        •	Live and usable on PoE Standard
+        
+        I made this website as a challenge to see if I can compete with the functionality of the most popular trading websites. 
+        `}
       />
 
       <Project
         logoSrc="./static/images/logo.png"
+        logoWidth="350"
+        logoHeight="262.5"
+        alt="Portfolio Logo"
         title="Portfolio"
         tags={[
           "HTML & CSS",
@@ -56,9 +83,15 @@ const Projects = () => {
           "Responsive",
           "Mobile-First",
         ]}
-        summary={`For this project I worked with things like Authentication with OAuth2, PayPal API, Database Design, UI & UX, and I used Vue and Vuex to make the project a Single Page Application.
-
-      Victor from Adventure Cord approached me to develop a website for his Discord bot where users can log in with their Discord accounts and view their profile stats, view other users's stats, read news and updates for the bot directly from the team and purchase products to use within the bot. Since I had a lot of time to build the project and wanted to learn as much as possible, I decided to build everything from scratch.`}
+        summary={`An app that shows the collection of my work. This app features Next.js’ statically generated app in order to optimize accessibility and SEO.
+        
+        The app features:
+        •	Beautiful mobile-first design
+        •	Accessibility & SEO
+        •	Scalability
+        
+        I built this app for scalability, creating reusable React components. This will help as I continue to add new projects 
+        `}
       />
     </Section>
   );

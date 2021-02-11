@@ -308,3 +308,44 @@
 .footer__item {
   margin-right: 15px;
 }
+
+// Skills
+
+.skills__container {
+  padding: 15px 15px;
+
+}
+
+.skills__list {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 20px 50px;
+
+}
+
+.skills__listItem {
+  flex-grow: 1;
+  margin-bottom: 30px;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__icon {
+  color: $three;
+}
+
+.skills__listTitle {
+  margin-top: 5px;
+
+}
+
+.skills__listSubtitle {
+  margin-top: 5px;
+  font-weight: 300;
+  line-height: 1.3;
+}
