@@ -6,15 +6,10 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="shortcut icon" href="/static/favicon/favicon.ico" />
-          <title>Alex Danisz | Web Developer</title>
           <meta charSet="utf-8" />
           <meta name="author" content="Alex Danisz"/>
           <meta name="description" content="Alex Danisz is a developer focused on web technlogies."/>
           <meta name="keywords" content="coding, html, css, javascript, react, portfolio"/>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
           <meta name="description" />
         </Head>
         <body>

@@ -73,6 +73,8 @@ const Projects = () => {
         logoHeight="262.5"
         alt="Portfolio Logo"
         title="Portfolio"
+        demoUrl="https://github.com/Xrythidon/Portfolio"
+        codeUrl="https://github.com/Xrythidon/Portfolio"
         tags={[
           "HTML & CSS",
           "JavaScript",
