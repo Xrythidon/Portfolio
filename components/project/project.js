@@ -11,6 +11,7 @@ const Project = ({ logoSrc,  logoWidth, logoHeight, alt, title, tags, summary, d
           src={logoSrc}
           layout="fixed"
           alt="Project Image"
+          loading="lazy"
           className={homeStyles.project__logo}
           width={logoWidth}
           height={logoHeight}
