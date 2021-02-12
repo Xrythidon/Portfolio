@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import homeStyles from "../styles/Home.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
