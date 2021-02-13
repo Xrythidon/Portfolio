@@ -13,13 +13,11 @@ const Nav = () => {
           <ul className={homeStyles.nav__items}>
             <li className={homeStyles.nav__item}>
               <Link href="/">
-                <a target="_blank">
                   <button className="btn">Home</button>
-                </a>
               </Link>
             </li>
             <li className={homeStyles.nav__item}>
-              <Link href="/">
+              <Link href="/static/resume/Alex-Danisz-FrontEnd.pdf">
                 <a target="_blank">
                   <button className="btn">Resume</button>
                 </a>

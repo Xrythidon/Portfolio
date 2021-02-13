@@ -9,7 +9,7 @@ const About = () => {
         <h1 className={homeStyles.about__title}>
           Alex <span className={homeStyles.about__title2}>Danisz</span>
         </h1>
-
+        
         <img
           src="/static/images/logo.png"
           width={264}

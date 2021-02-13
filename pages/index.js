@@ -19,8 +19,3 @@ const index = () => {
 };
 
 export default index;
-
-/* 
-
-   <button className={`${homeStyles.about__btn} .btn`}>Hire Me</button>
-*/
