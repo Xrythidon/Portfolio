@@ -1,4 +1,4 @@
-## Picture a Day
+## Portfolio
 
 An app that shows the collection of my work. This app features Next.js’ statically generated app in order to optimize accessibility and SEO.
 
