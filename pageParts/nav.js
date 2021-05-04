@@ -17,7 +17,7 @@ const Nav = () => {
               </Link>
             </li>
             <li className={homeStyles.nav__item}>
-              <Link href="/static/resume/Alex-Danisz-FrontEnd.pdf">
+              <Link href="/static/resume/NewAlexDaniszPDF.pdf">
                 <a target="_blank">
                   <button className="btn">Resume</button>
                 </a>
